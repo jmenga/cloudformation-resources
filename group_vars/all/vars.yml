@@ -1,6 +1,4 @@
 ---
-# Add global settings here
-
-# aws-cloudformation role settings
-cf_stack_name: "cloudformation-resources"
-cf_stack_template: "templates/cfn.yml.j2"
+# Global stack settings
+Stack.Name: cloudformation-resources
+Stack.Template: templates/cfn.yml.j2
